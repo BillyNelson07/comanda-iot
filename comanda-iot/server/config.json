@@ -1,0 +1,15 @@
+{
+  "estabelecimento": "Bar do Boni",
+  "prefixo": "bdb-TROQUE-ESTE-CODIGO",
+  "broker": {
+    "url": "mqtt://broker.hivemq.com:1883",
+    "wsUrl": "ws://broker.hivemq.com:8000/mqtt"
+  },
+  "porta": 8080,
+  "imprimirCaixaQuando": "pronto",
+  "usuarios": [
+    { "usuario": "cozinha",  "pin": "1111", "papel": "cozinha" },
+    { "usuario": "caixa",    "pin": "2222", "papel": "caixa" },
+    { "usuario": "gerencia", "pin": "3333", "papel": "gerencia" }
+  ]
+}

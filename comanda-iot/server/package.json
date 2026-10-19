@@ -1,0 +1,20 @@
+{
+  "name": "comanda-iot",
+  "version": "1.0.0",
+  "description": "Comandas de restaurante via IoT MQTT Panel + ESP32 + plataforma web",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "broker": "node broker.js",
+    "start:local": "BROKER_URL=mqtt://localhost:1883 BROKER_WS=ws://{host}:8083 node server.js",
+    "simular": "node simular.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "aedes": "^1.2.0",
+    "mqtt": "^5.16.1",
+    "ws": "^8.22.0"
+  }
+}

@@ -1,0 +1,356 @@
+[
+ {
+  "cod": "CAM-CRO",
+  "nome": "Camarão Rosa Crocante 500g",
+  "preco": 164.9,
+  "cat": "Petiscos"
+ },
+ {
+  "cod": "CAM-MIL",
+  "nome": "Camarão à Milanesa 350g",
+  "preco": 69.9,
+  "cat": "Petiscos"
+ },
+ {
+  "cod": "CAM-AO",
+  "nome": "Camarão Alho e Óleo 350g",
+  "preco": 84.9,
+  "cat": "Petiscos"
+ },
+ {
+  "cod": "LULA",
+  "nome": "Lula à Dorê 350g",
+  "preco": 58.9,
+  "cat": "Petiscos"
+ },
+ {
+  "cod": "ISCA-PEIXE",
+  "nome": "Isca de Peixe (pescada) 350g",
+  "preco": 41.9,
+  "cat": "Petiscos"
+ },
+ {
+  "cod": "POLVO",
+  "nome": "Polvo ao Alho e Óleo",
+  "preco": 98.9,
+  "cat": "Petiscos"
+ },
+ {
+  "cod": "SIRI",
+  "nome": "Casquinha de Siri",
+  "preco": 16.9,
+  "cat": "Petiscos"
+ },
+ {
+  "cod": "OSTRA6",
+  "nome": "Ostra in Natura 6un",
+  "preco": 36.9,
+  "cat": "Petiscos"
+ },
+ {
+  "cod": "MIGNON",
+  "nome": "Mignon acebolado 250g",
+  "preco": 99.9,
+  "cat": "Porções"
+ },
+ {
+  "cod": "MIGNON-GORG",
+  "nome": "Mignon ao gorgonzola 250g",
+  "preco": 104.9,
+  "cat": "Porções"
+ },
+ {
+  "cod": "ENTRECOT",
+  "nome": "Entrecot aperitivo 250g",
+  "preco": 69.9,
+  "cat": "Porções"
+ },
+ {
+  "cod": "PASSARINHO",
+  "nome": "Frango à passarinho 250g",
+  "preco": 36.9,
+  "cat": "Porções"
+ },
+ {
+  "cod": "CALABRESA",
+  "nome": "Calabresa acebolada 250g",
+  "preco": 30.9,
+  "cat": "Porções"
+ },
+ {
+  "cod": "COSTELA",
+  "nome": "Costelinha barbecue 500g",
+  "preco": 98.9,
+  "cat": "Porções"
+ },
+ {
+  "cod": "MISTA-1KG",
+  "nome": "Mista especial da casa 1kg",
+  "preco": 175.9,
+  "cat": "Porções"
+ },
+ {
+  "cod": "BBB",
+  "nome": "Boni burger barbecue",
+  "preco": 36.9,
+  "cat": "Lanches"
+ },
+ {
+  "cod": "BBB-BACON",
+  "nome": "BBB bacon",
+  "preco": 43.9,
+  "cat": "Lanches"
+ },
+ {
+  "cod": "BBB-VEG",
+  "nome": "BBB Veg",
+  "preco": 36.9,
+  "cat": "Lanches"
+ },
+ {
+  "cod": "BATATA250",
+  "nome": "Batata frita 250g",
+  "preco": 22.9,
+  "cat": "Lanches"
+ },
+ {
+  "cod": "BATATA-CB",
+  "nome": "Batata c/ cheddar e bacon 250g",
+  "preco": 32.9,
+  "cat": "Lanches"
+ },
+ {
+  "cod": "BATATA-5Q",
+  "nome": "Batata 5 queijos 250g",
+  "preco": 41.9,
+  "cat": "Lanches"
+ },
+ {
+  "cod": "PAST-CARNE",
+  "nome": "Pastel de carne",
+  "preco": 15.9,
+  "cat": "Lanches"
+ },
+ {
+  "cod": "PAST-QUEIJO",
+  "nome": "Pastel de queijo",
+  "preco": 14.9,
+  "cat": "Lanches"
+ },
+ {
+  "cod": "PAST-CAMARAO",
+  "nome": "Pastel de camarão",
+  "preco": 18.9,
+  "cat": "Lanches"
+ },
+ {
+  "cod": "CALDO-PEIXE",
+  "nome": "Caldo de peixe",
+  "preco": 18.9,
+  "cat": "Lanches"
+ },
+ {
+  "cod": "CALDO-CAMARAO",
+  "nome": "Caldo de camarão",
+  "preco": 24.9,
+  "cat": "Lanches"
+ },
+ {
+  "cod": "MOJITO",
+  "nome": "Mojito",
+  "preco": 28.9,
+  "cat": "Coquetéis"
+ },
+ {
+  "cod": "MARGARITA",
+  "nome": "Margarita",
+  "preco": 26.9,
+  "cat": "Coquetéis"
+ },
+ {
+  "cod": "PINA",
+  "nome": "Piña Colada",
+  "preco": 29.9,
+  "cat": "Coquetéis"
+ },
+ {
+  "cod": "NEGRONI",
+  "nome": "Negroni",
+  "preco": 36.9,
+  "cat": "Coquetéis"
+ },
+ {
+  "cod": "APEROL",
+  "nome": "Aperol Spritz",
+  "preco": 36.9,
+  "cat": "Coquetéis"
+ },
+ {
+  "cod": "GIN-NAC",
+  "nome": "Gin Tônica Nacional",
+  "preco": 26.9,
+  "cat": "Coquetéis"
+ },
+ {
+  "cod": "CAMPARI-T",
+  "nome": "Campari Tônica",
+  "preco": 28.9,
+  "cat": "Coquetéis"
+ },
+ {
+  "cod": "COCO-BONI",
+  "nome": "Coco Boni",
+  "preco": 76.9,
+  "cat": "Coquetéis"
+ },
+ {
+  "cod": "CAIPI-LIMAO",
+  "nome": "Caipirinha Caninha 51",
+  "preco": 21.9,
+  "cat": "Coquetéis"
+ },
+ {
+  "cod": "CAIPI-VODKA",
+  "nome": "Caipirinha Vodka Nacional",
+  "preco": 29.9,
+  "cat": "Coquetéis"
+ },
+ {
+  "cod": "CAIPI-FRUTAS",
+  "nome": "Caipira Especial de Frutas 500ml",
+  "preco": 52.9,
+  "cat": "Coquetéis"
+ },
+ {
+  "cod": "COCA",
+  "nome": "Coca-Cola",
+  "preco": 6.9,
+  "cat": "Sem álcool"
+ },
+ {
+  "cod": "COCA-ZERO",
+  "nome": "Coca-Cola Zero",
+  "preco": 6.9,
+  "cat": "Sem álcool"
+ },
+ {
+  "cod": "GUARANA",
+  "nome": "Guaraná",
+  "preco": 6.9,
+  "cat": "Sem álcool"
+ },
+ {
+  "cod": "AGUA-SG",
+  "nome": "Água mineral sem gás",
+  "preco": 6.0,
+  "cat": "Sem álcool"
+ },
+ {
+  "cod": "AGUA-CG",
+  "nome": "Água mineral com gás",
+  "preco": 6.0,
+  "cat": "Sem álcool"
+ },
+ {
+  "cod": "SUCO-NAT",
+  "nome": "Suco natural (copo)",
+  "preco": 13.9,
+  "cat": "Sem álcool"
+ },
+ {
+  "cod": "SUCO-POLPA",
+  "nome": "Suco de polpa",
+  "preco": 12.9,
+  "cat": "Sem álcool"
+ },
+ {
+  "cod": "H2O",
+  "nome": "H2O Limão",
+  "preco": 8.9,
+  "cat": "Sem álcool"
+ },
+ {
+  "cod": "CHOPP-IPA",
+  "nome": "Chopp IPA Kairós 350ml",
+  "preco": 18.9,
+  "cat": "Cervejas"
+ },
+ {
+  "cod": "CHOPP-PILSEN",
+  "nome": "Chopp Pilsen Kairós 350ml",
+  "preco": 12.9,
+  "cat": "Cervejas"
+ },
+ {
+  "cod": "CHOPP-HEINEKEN",
+  "nome": "Chopp Heineken 350ml",
+  "preco": 14.9,
+  "cat": "Cervejas"
+ },
+ {
+  "cod": "CHOPP-AMSTEL",
+  "nome": "Chopp Amstel 350ml",
+  "preco": 12.9,
+  "cat": "Cervejas"
+ },
+ {
+  "cod": "HEINEKEN600",
+  "nome": "Heineken 600ml",
+  "preco": 24.9,
+  "cat": "Cervejas"
+ },
+ {
+  "cod": "AMSTEL600",
+  "nome": "Amstel 600ml",
+  "preco": 18.9,
+  "cat": "Cervejas"
+ },
+ {
+  "cod": "EISEN600",
+  "nome": "Eisenbahn 600ml",
+  "preco": 18.9,
+  "cat": "Cervejas"
+ },
+ {
+  "cod": "STELLA600",
+  "nome": "Stella Artois 600ml",
+  "preco": 22.9,
+  "cat": "Cervejas"
+ },
+ {
+  "cod": "SCHORN-WEISS",
+  "nome": "Schornstein Weiss 500ml",
+  "preco": 29.9,
+  "cat": "Cervejas"
+ },
+ {
+  "cod": "SCHORN-IPA",
+  "nome": "Schornstein IPA 500ml",
+  "preco": 29.9,
+  "cat": "Cervejas"
+ },
+ {
+  "cod": "DOSE-JACK",
+  "nome": "Jack Daniel's (dose)",
+  "preco": 29.9,
+  "cat": "Doses"
+ },
+ {
+  "cod": "DOSE-ABSOLUT",
+  "nome": "Absolut (dose)",
+  "preco": 28.9,
+  "cat": "Doses"
+ },
+ {
+  "cod": "DOSE-OHANA",
+  "nome": "Gin Ohana (dose)",
+  "preco": 28.9,
+  "cat": "Doses"
+ },
+ {
+  "cod": "DOSE-BLACK",
+  "nome": "Black Label (dose)",
+  "preco": 33.9,
+  "cat": "Doses"
+ }
+]

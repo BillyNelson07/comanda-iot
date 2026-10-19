@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Comandas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="logo" aria-hidden="true">⚓</span><div><b id="nome">Comandas</b><small id="papel"></small></div></div>
+  <div class="chips">
+    <span class="chip" id="c-broker" title="Conexão com o broker MQTT">broker</span>
+    <span class="chip" id="c-gw" title="Gateway de pedidos">gateway</span>
+    <span class="chip" id="c-prn" title="ESP32 + impressora">impressora</span>
+  </div>
+  <button class="ghost" id="sair" hidden>Sair</button>
+</header>
+
+<main id="login" class="login">
+  <form id="f-login" autocomplete="off">
+    <h1>Entrar</h1>
+    <p>Escolha seu acesso e digite o PIN.</p>
+    <div class="roles" id="roles">
+      <button type="button" data-u="cozinha">🔥<span>Cozinha</span></button>
+      <button type="button" data-u="caixa">🧾<span>Caixa</span></button>
+      <button type="button" data-u="gerencia">📊<span>Gerência</span></button>
+    </div>
+    <input id="pin" type="password" inputmode="numeric" placeholder="PIN" required>
+    <button class="primary" type="submit">Acessar</button>
+    <p class="erro" id="erro"></p>
+  </form>
+</main>
+
+<main id="v-cozinha" hidden>
+  <div class="lanes">
+    <section><h2 class="l-novo">Novos <em id="n-novo">0</em></h2><div class="cards" id="l-novo"></div></section>
+    <section><h2 class="l-preparo">Em preparo <em id="n-preparo">0</em></h2><div class="cards" id="l-preparo"></div></section>
+  </div>
+</main>
+
+<main id="v-caixa" hidden>
+  <div class="kpis" id="k-caixa"></div>
+  <h2 class="l-pronto">Prontos para cobrança <em id="n-pronto">0</em></h2>
+  <div class="cards wide" id="l-pronto"></div>
+</main>
+
+<main id="v-gerencia" hidden>
+  <div class="kpis" id="k-ger"></div>
+  <form class="filtros" id="filtros">
+    <label>Mesa<input name="mesa" placeholder="todas"></label>
+    <label>Cliente<input name="cli" placeholder="nome"></label>
+    <label>Status<select name="status"><option value="">todos</option><option value="novo">novo</option><option value="preparo">em preparo</option><option value="pronto">pronto</option><option value="pago">pago</option><option value="cancelado">cancelado</option></select></label>
+    <label>Valor mín.<input name="vmin" type="number" min="0" step="0.01"></label>
+    <label>Valor máx.<input name="vmax" type="number" min="0" step="0.01"></label>
+    <label>De<input name="de" type="time"></label>
+    <label>Até<input name="ate" type="time"></label>
+    <button type="reset" class="ghost">Limpar</button>
+    <button type="button" class="ghost" id="csv">Exportar CSV</button>
+  </form>
+  <div class="table-wrap"><table id="tb"><thead><tr><th>#</th><th>Hora</th><th>Mesa</th><th>Cliente</th><th>Atendente</th><th>Status</th><th class="r">Total</th></tr></thead><tbody></tbody></table></div>
+</main>
+
+<script src="config.js"></script>
+<script src="mqtt.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
